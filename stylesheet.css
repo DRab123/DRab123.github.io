@@ -7,23 +7,22 @@ body {
     font-size: 20px;
     background-color: rgb(229, 223, 230);
     background-image: url("https://wallpapercave.com/wp/wp3215790.jpg");
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 
   }
   
   
   .header_container {  
-    background-color: rgba(204, 189, 211, 0.747);
     border-top-left-radius:50px;
     border-top-right-radius: 50px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin: 10px auto;
-    width: 75%;
     background-image: url("https://c4.wallpaperflare.com/wallpaper/152/392/34/cupcakes-hamster-animals-food-wallpaper-preview.jpg");
     background-position: center;
-    
+    justify-content: left;
+    width: 50%;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
   }
   
   .header {
@@ -31,7 +30,7 @@ body {
   text-shadow: #000 2px 2px 2px;
   font-size: 50px;
   margin-left: 20px;
-  font-family: 'Yanone Kaffeesatz'
+  
   
   }
   
@@ -39,13 +38,12 @@ body {
   .buttons_container {  
     
     background-image: linear-gradient(to bottom, rgba(164, 182, 223, 0.795), rgb(228, 187, 226));
-    background-color: rgba(204, 189, 211, 0.815);
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 30px;
-    width: 75%;
+    font-size: 25px;
+    width: 50%;
     margin: 20px auto;
     
     
@@ -66,32 +64,51 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: 'Yanone Kaffeesatz';
+    
     
   }
   
   
 
   .accordion {
-    
-    
-    background-color: rgba(204, 189, 211, 0.747);
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    background-image: linear-gradient(to bottom, rgba(228, 187, 226), rgb(164, 182, 223, 0.795));
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
+    width: 50%;
+    margin: 10px auto;
+    
+    
+  }
+
+  .accordion:after {
+    content: '+';
+    color: rgb(0, 0, 0);
     font-size: 30px;
-    width: 25%;
-    margin: auto;
-    font-family: 'Yanone Kaffeesatz';
+    
   }
-  
-  
-  .aboutme {
-    font-family: 'Yanone Kaffeesatz'
+    
+
+  .accordion_button {
+    font-size: 40px;
+    
   }
+
   
-  .buttons:hover {background-color: #4bd46e59}
+   
+  
+  
+
+
+
+  
+  
+  .buttons:hover {
+    background-color: #4bd46e59
+  }
   
   
   @media (max-width: 1000px) {
