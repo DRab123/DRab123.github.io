@@ -9,3 +9,5 @@ to do:
 - mobile support
 
 - think what else to add
+
+- left, center, right design test
