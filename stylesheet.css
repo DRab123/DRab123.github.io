@@ -18,7 +18,7 @@ body {
     background-image: url("https://c4.wallpaperflare.com/wallpaper/152/392/34/cupcakes-hamster-animals-food-wallpaper-preview.jpg");
     background-position: center;
     justify-content: left;
-    width: 50%;
+    width: 55%;
     flex-direction: row;
     padding: 10px;
     margin: 10px auto;
@@ -28,7 +28,7 @@ body {
   .header {
   color: white;
   text-shadow: #000 2px 2px 2px;
-  font-size: 50px;
+  font-size: 40px;
   margin-left: 20px;
   
   
@@ -43,7 +43,7 @@ body {
     flex-direction: row;
     justify-content: center;
     font-size: 25px;
-    width: 50%;
+    width: 55%;
     margin: 20px auto;
     
     
@@ -68,63 +68,30 @@ body {
     
   }
   
-  
-
-  .accordion {
-    border-bottom-left-radius:50px;
-    border-bottom-right-radius: 50px;
-    background-image: linear-gradient(to bottom, rgba(228, 187, 226), rgb(164, 182, 223, 0.795));
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    width: 50%;
-    margin: 10px auto;
-    
-    
-  }
-
-  .accordion:after {
-    content: '+';
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    
-  }
-    
-
-  .accordion_button {
-    font-size: 40px;
-    
-  }
-
-  
-   
-  
-  
-
-
-
-  
-  
+ 
   .buttons:hover {
     background-color: #4bd46e59
   }
+
+
+  
+ 
   
   
   @media (max-width: 1000px) {
     
     .header_container  {
       justify-content: center;
-      width: 50%  
+      width: 70%  
     }
   
     .header {
-      font-size: 30px;
-      margin-left: 0px;
+      font-size: 25px;
+      margin-top: 150px;
     }
   
     .buttons_container {
-    width: 50%;
+    width: 70%;
     font-size: 20px;
     flex-direction: column;
     justify-content: center;
