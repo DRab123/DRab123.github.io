@@ -6,8 +6,10 @@ to do:
 
 - image carousel
 
-- mobile support
+- image carousel hover information on each pic
+
+- mobile support (seems to be fine now?)
 
 - think what else to add
 
-- left, center, right design test
+
